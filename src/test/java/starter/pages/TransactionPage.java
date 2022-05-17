@@ -55,7 +55,7 @@ public class TransactionPage extends PageObject {
 
     // valid-view-by-filtering-produk-descending
     private By dropdownFilteringProdukAsc(){
-        return By.xpath("/html/body/div/div[1]/main/div/div/div/div/div[1]/table/thead/tr/th[1]/i");
+        return By.xpath("/html/body/div/div/main/div/div/div/div/div[1]/table/thead/tr/th[1]/i");
     }
 
     @Step
