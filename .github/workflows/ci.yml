@@ -20,5 +20,5 @@ jobs:
           distribution: 'adopt'
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots package
-      - name: Test Web
+      - name: Test Website
         run: mvn clean verify
