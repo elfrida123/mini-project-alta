@@ -27,7 +27,7 @@ Feature: Categories
     Then I click icon star
 
   @invalid-give-ratings
-  Scenario: Give rating's product
+  Scenario: Invalid give rating's product
     Given I am on the home page for give rating's product
     When I select the product which want to give rating
     Then I click button Detail

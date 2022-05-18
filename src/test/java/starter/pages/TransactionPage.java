@@ -53,7 +53,7 @@ public class TransactionPage extends PageObject {
         $(rows15()).select();
     }
 
-    // valid-view-by-filtering-produk-descending
+    // valid-view-by-filtering-produk-ascending
     private By dropdownFilteringProdukAsc(){
         return By.xpath("/html/body/div/div/main/div/div/div/div/div[1]/table/thead/tr/th[1]/i");
     }
